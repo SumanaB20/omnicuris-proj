@@ -39,8 +39,12 @@
     box-shadow: 0px 2px 15px 3px #80808057;
     font-size: 20px;
 }
+.close-div {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
 .close-icon {
-    float: right;
     margin-top: 5px;
     height: 40px;
     width: 40px;
@@ -85,4 +89,11 @@
     top: 50%;
     position: fixed;
     left: 43%;
+}
+
+.logo-pic {
+    height: 150px;
+    width: 150px;
+    box-shadow: 0px 2px 15px 3px #80808057;
+    border-radius: 0%;
 }

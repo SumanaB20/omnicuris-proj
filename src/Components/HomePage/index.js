@@ -155,11 +155,17 @@ class HomePage extends React.Component {
         {showModal &&
           <div id="scroll-bar" className="div-modal-overflow">
             <div className="div-modal">
-              <i
-                onClick={this.handleCloseModal}
-                className="fa fa-times close-icon"
-                aria-hidden="true"
-              />
+              <div className="close-div">
+                <i
+                  onClick={this.handleCloseModal}
+                  className="fa fa-times close-icon"
+                  aria-hidden="true"
+                />
+              </div>
+              <div className="div-block d-flex align-items-center  justify-content-center">
+                <i className="fa fa-coins intro-icon" aria-hidden="true" />
+                <div className="intro-title">Credit Points Applicable</div>
+              </div>
               <div className="div-block">
                 <div className="d-flex">
                   <img
@@ -214,6 +220,15 @@ class HomePage extends React.Component {
                         </div>
                       );
                     })}
+                </div>
+                <h2 className="expert-heading">Accredited By</h2>
+                <div>
+                  <img
+                    className="logo-pic"
+                    alt="profile-pic"
+                    src={courseDetails.courseOrganizations[0].image}
+                  />
+                  <div> {courseDetails.courseOrganizations[0].name} </div>
                 </div>
               </div>
             </div>
