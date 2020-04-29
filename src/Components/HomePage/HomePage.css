@@ -1,0 +1,88 @@
+.page-container {
+    padding: 20px;
+    position: relative;
+    overflow-y: auto;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.header {
+    padding: 10px;
+    border: 1.5px solid #80808057;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 58%;
+}
+.sub-header {
+    color: #1b7ed4;
+}
+.video-modules-container {
+    display: flex;
+    margin: 20px 20px 40px 20px;
+    max-height: 480px;
+}
+.video-container {
+    display: flex;
+    flex: 1 1 60%;
+}
+
+.modules-container {
+    display: flex;
+    flex: 1 1 40%;
+}
+.social-icon {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: #808080;
+    background-color: white;
+    box-shadow: 0px 2px 15px 3px #80808057;
+    font-size: 20px;
+}
+.close-icon {
+    float: right;
+    margin-top: 5px;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: #808080;
+    background-color: white;
+    box-shadow: 0px 2px 15px 3px #80808057;
+    font-size: 20px;
+}
+.div-modal-overflow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #514c4cd4;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+}
+.div-modal {
+    margin: auto;
+    /* margin-top: 10%; */
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+}
+.error-div {
+    height: 100vh;
+    width: 100vw;
+    background: #ff000063;
+    color: white;
+    font-size: 20px;
+}
+.error-title {
+    top: 50%;
+    position: fixed;
+    left: 43%;
+}

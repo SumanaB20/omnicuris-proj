@@ -1,0 +1,44 @@
+.fa-caret-square-left, .fa-caret-square-right {
+    font-size: 25px;
+    color: #56ade7;
+}
+.expert-heading {
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 10px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.expert-heading:before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 7px;
+    bottom: 0;
+    left: 10%;
+    border-bottom: 3px solid #56ade7;
+}
+.experts-img {
+    margin-bottom: 20px;
+    height: 170px;
+    width: 170px;
+    border: 1.5px solid white;
+    -moz-box-shadow: 0 0 5px #80808057;
+    -webkit-box-shadow: 0px 2px 15px 3px #80808057; 
+    box-shadow: 0px 2px 15px 3px #80808057;
+    border-radius: 20px;
+}
+.experts-qualification {
+    color: #fa259be0;
+}
+.experts-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #56ade7;
+}
+.experts-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    align-items: center;
+}

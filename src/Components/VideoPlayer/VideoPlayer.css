@@ -1,0 +1,18 @@
+.videoplayer-container {
+    border: 1.5px solid white;
+    -moz-box-shadow: 0 0 5px #80808057;
+    -webkit-box-shadow: 0px 2px 15px 3px #80808057; 
+    box-shadow: 0px 2px 15px 3px #80808057;
+    border-radius: 20px;
+    outline: 0 !important;
+}
+
+.video-title {
+    position: absolute;
+    background: #ffffff7d;
+    /* left: 0; */
+    width: 97%;
+    text-align: end;
+    top: 10px;
+    color: white;
+}
